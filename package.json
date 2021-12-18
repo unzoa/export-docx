@@ -1,6 +1,6 @@
 {
   "name": "export-docx",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "浏览器导出docx文件，利用实现准备好的模版docx文件",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,11 @@
     "url": "https://github.com/unzoa/export-docx/issues"
   },
   "homepage": "https://github.com/unzoa/export-docx#readme",
-  "devDependencies": {
-    "docxtemplater": "^3.17.9",
-    "file-saver": "^2.0.2",
-    "jszip": "^2.6.1",
-    "jszip-utils": "^0.1.0",
-    "open-docxtemplater-image-module": "^1.0.3"
+  "dependencies": {
+    "docxtemplater": "3.17.9",
+    "file-saver": "2.0.2",
+    "jszip": "2.6.1",
+    "jszip-utils": "0.1.0",
+    "open-docxtemplater-image-module": "1.0.3"
   }
 }
