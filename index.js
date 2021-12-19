@@ -12,7 +12,7 @@ const ImageModule = require('open-docxtemplater-image-module')
 * @param  {Array}  imgSize    [统一设置图片尺寸]
 */
 
-module.exports = (tempDocUrl, docData, fileName = 'sample Word', imgSize) => {
+module.exports = (tempDocUrl, docData, fileName = 'sample.docx', imgSize) => {
   // 读取并获得模板文件的二进制内容
   JSZipUtils.getBinaryContent(tempDocUrl, function (error, content) {
     // input.docx是模板。我们在导出的时候，会根据此模板来导出对应的数据
@@ -52,7 +52,7 @@ module.exports = (tempDocUrl, docData, fileName = 'sample Word', imgSize) => {
       mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
     })
     // 将目标文件对象保存为目标类型的文件，并命名
-    saveAs(out, fileName + '.docx')
+    saveAs(out, fileName)
   })
 }
 
