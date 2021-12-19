@@ -1,6 +1,6 @@
 # export-docx
 
-> 浏览器导出docx文件. 利用实现准备好的模版 temp.docx 文件，模版文件中编写文档格式，并插入变量名，待执行导出时赋值。
+> 浏览器导出docx文件。利用有你编写文档格式的模版 temp.docx，在其中插入变量名，待执行导出时赋值。
 
 **感谢**: [docxtemplater](https://github.com/open-xml-templating/docxtemplater)
 
