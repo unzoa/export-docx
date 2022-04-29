@@ -58,7 +58,7 @@ module.exports = (tempDocUrl, docData, fileName = 'sample.docx', imgSize) => {
 
 function imageModule (size = [200, 200]) {
   let opts = {}
-  opts.centered = true // 图片居中，在word模板中定义方式为{%%image}
+  opts.centered = false // 图片居中，在word模板中定义方式为{%%image}
   opts.fileType = 'docx'
 
   /**
