@@ -1,7 +1,7 @@
 {
   "name": "export-docx",
   "version": "1.0.4-alpha.3",
-  "description": "浏览器导出docx文件，利用实现准备好的模版docx文件",
+  "description": "浏览器导出docx文件，利用准备好的模版docx文件",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
